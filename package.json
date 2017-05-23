@@ -4,7 +4,18 @@
   "version": "0.0.5",
   "author": "Bertrand Paquet <bertrand.paquet@gmail.com>",
   "maintainer": "Lorenzo Mangani <lorenzo.mangani@gmail.com>",
-  "keywords": ["logstash", "log", "zmq", "zeromq", "hep", "eep","freeswitch","asterisk","janus", "homer"],
+  "keywords": [
+    "logstash",
+    "log",
+    "zmq",
+    "zeromq",
+    "hep",
+    "eep",
+    "freeswitch",
+    "asterisk",
+    "janus",
+    "homer"
+  ],
   "main": "./lib/log4node.js",
   "homepage": "https://github.com/sipcapture/pastash",
   "repository": {
@@ -26,13 +37,14 @@
     "test": "./test-runner.sh"
   },
   "dependencies": {
-    "log4node": "0.1.6",
-    "optimist": "0.6.1",
-    "mkdirp": "0.5.1",
     "async": "0.9.0",
-    "lru-cache": "2.7.x"
+    "gun": "^0.7.5",
+    "log4node": "0.1.6",
+    "lru-cache": "2.7.x",
+    "mkdirp": "0.5.1",
+    "optimist": "0.6.1"
   },
-  "optionalDependencies":{
+  "optionalDependencies": {
     "aws-sdk": "2.7.x",
     "amqplib": "0.4.0",
     "zmq": "*",
