@@ -1,0 +1,8 @@
+{
+  "name": "test-vows-batch-retry",
+  "version": "0.0.1",
+  "dependencies": {
+    "vows-batch-retry": "0.0.1",
+    "vows": "0.7.0"
+  }
+}

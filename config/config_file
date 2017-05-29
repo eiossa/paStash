@@ -1,0 +1,17 @@
+input {
+ http {
+    host => 127.0.0.1
+    port => 8080
+ }
+}
+
+filter{
+  app_janus{
+    }
+}
+
+output {
+	file{
+	path => "/var/log/nuovo.log"
+   }
+}
