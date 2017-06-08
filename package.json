@@ -39,6 +39,8 @@
   "dependencies": {
     "async": "0.9.0",
     "gun": "^0.7.5",
+    "level-browserify": "^1.1.1",
+    "levelgraph": "^2.1.1",
     "log4node": "0.1.6",
     "lru-cache": "2.7.x",
     "mkdirp": "0.5.1",
