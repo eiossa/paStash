@@ -5,15 +5,15 @@ input {
  }
 }
 
+
 filter{
-  app_janus{
-    }
+ json_fields{}
 }
 
 filter{
-   json_fields{
-    }
+  app_janus{} 
 }
+
 
 output {
  elasticsearch{
