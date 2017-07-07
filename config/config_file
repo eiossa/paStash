@@ -16,7 +16,7 @@ output {
    host => 144.76.26.215
    port => 19200
    bulk_limit => 1000
-   bulk_timeout => 500
+   bulk_timeout => 100
    index_prefix => janus
    data_type => event
    basic_auth_user => janus
